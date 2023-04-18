@@ -6,6 +6,6 @@ print(myList)
 X = int(input("введите число: "))
 count = 0
 for i in myList:
-    if myList[i] == X:
+    if i == X:
         count+=1
-print(count)
+print(f" число {X} встречается {count} раз" )
