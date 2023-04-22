@@ -5,3 +5,12 @@
 # m — кол-во элементов второго множества. 
 # Затем пользователь вводит сами элементы множеств.
 
+import random
+
+
+list1 = []
+for i in list1:
+    list1.append(random.randit(0, 100))
+list2 = []
+for i in list2:
+    list2.append(random.randit(0, 100))
